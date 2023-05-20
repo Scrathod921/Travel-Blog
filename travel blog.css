@@ -1,0 +1,375 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-color: teal;
+    background-image: url(../BLOG/Images/mountain\ left.com.png),url(../BLOG/Images/mountain\ right.com.png),
+    url(../BLOG/Images/photo-1454942901704-3c44c11b2ad1.avif);
+    background-repeat: no-repeat;
+    background-size: 80%,60%,100% 400vh;
+    background-position: left,right,0% 0%;
+    transition: background-position 0.5s,background-size 0.5s;
+    overflow: hidden;
+}
+#header:hover{
+    background-position:-160%,160%,50%;
+    background-size:80%,60%,100% 100vh;
+}
+#text{
+    position: relative;
+    left: 350px;
+    top: 60px;
+    font-size: 5vw;
+    letter-spacing: 1vw;
+    text-transform: capitalize;
+    color: transparent;
+    filter: drop-shadow(2px 2px 4px black);
+    transform: scale(0) rotateX(360deg) rotateY(360deg);
+    transition:transform 1s,color 1.5s ;
+    transition-delay: 0.s;
+}
+#header:hover #text{
+    color:yellow;
+    transform: scale(1)  rotateX(0deg) rotateY(0deg);
+}
+#navbar{
+    width: 100%;
+    height:75px;
+    background-color: #ffb703;
+    position: sticky;
+    top: 0px;
+    box-shadow: 2px 2px 5px black;
+    z-index: 1;
+    
+}
+#logo{
+    width: 150px;
+    filter: drop-shadow(2px 2px 2px black);
+}
+#mainlist{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 70px;
+}
+.list{
+    font-size: 40px;
+    text-transform: capitalize;
+    position:relative;
+    top: 10px;
+    color: #023047;
+}
+.list:hover{
+    transform: scale(1.2);
+}
+.anchorli{
+    text-decoration: none;
+    color: #023047;   
+}
+.anchorli:hover{
+    text-decoration: underline 2px white;
+    color: white;
+}
+#home,#places,#info{
+    width: 100%;
+    height: 220vh;
+}
+#home{
+    background-color: #023047;
+}
+#places{
+    background-color: #219ebc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    border-top: 4px solid rgb(204, 194, 194);
+    
+}
+#info{
+    background-color:#DF678C ;
+}
+#imagecont{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.imagesinhome{
+    width: 200px;
+    height: 200px;
+    transform: rotateY(25deg) skewY(-20deg);
+    margin-left: -90px;
+    position: relative;
+    top: 120px;
+    right: 25px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+    transition: transform 0.5s ; 
+}
+.imagesinhome:hover{
+    transform: rotateY(0deg) skewY(0deg) translateY(-200px);
+}
+#guide{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    right: 220px;
+    top: 80px;
+}
+#guideheading{
+    text-align: center;
+    font-size: 35px;
+    color: green;
+    text-shadow: 3px 3px 4px black;
+    letter-spacing: 8px;
+}
+#guidepara{
+    font-size: 25px;
+    /* letter-spacing: 5px; */
+    /* word-spacing: 10px; */
+    text-align: justify;
+    letter-spacing: 5px;
+    width: 300px;
+    text-indent: 78px;
+    margin-top: 30px;
+    color: white;
+}
+#homepageinfo{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 200px;
+    border-top: 4px solid rgb(204, 194, 194);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#travelheading{
+    width: 100%;
+    height: 80px;
+    margin-top: 15px;
+    background-color: beige;
+}
+#travelways{
+    text-align: center;
+    margin-top: 10px;
+}
+.travelcontainer{
+    width: 200px;
+    height: 200px;
+    
+   
+}
+.containerImage{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    border: 2px groove rgb(193, 68, 68);    
+}
+#containerImage2{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    border: 2px groove rgb(193, 68, 68);   
+}
+#containerImage2:hover{
+    filter: blur(3px);
+}
+#travelText1{
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    color: white;
+    font-size: 40px;
+}
+.containerImage:hover{
+    filter: blur(3px);
+}
+#travelText2{
+    color: white;
+    position: relative;
+    top: 80px;
+    right: 140px;
+    font-size: 40px;
+}
+.anchortravelText{
+    text-decoration: none;
+    color: white;
+}
+.placeCont{
+    width: 300px;
+    height: 300px;   
+    background-size: 100% 300px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: transform 0.5s;
+    filter: brightness(70%);
+    cursor: pointer;
+
+}
+.placeCont:hover .placeName{
+    transform: scale(1.2);
+}
+.placeCont:hover{
+    transform: scale(1.2);
+}
+
+.placeName{
+    font-size: 40px;
+    filter: brightness(100%);
+    transition: transform 0.5s;
+}
+.placeName:hover{
+    transform: scale(1.2);
+}
+#tajmahel{
+    background-image: url(../BLOG/Images/tajmahel.avif);
+}
+#hampi{
+    background-image: url(../BLOG/Images/Hampi-696x399.jpg);
+}
+#goldentemple{
+    background-image: url(../BLOG/Images/golden\ temple.jpg);
+}
+#charminar{
+    background-image: url(../BLOG/Images/charminar-hyderabad-featured-image\ \(1\).jpg);
+}
+#golgumbaj{
+    background-image: url(../BLOG/Images/golgumbaz.jpg);
+}
+#mumbai{
+    background-image: url(../BLOG/Images/Gateway-of-India-Mumai-monument-2012.webp);
+}
+#kerala{
+    background-image: url(../BLOG/Images/Historical-Temples-in-Kerala-@stylesatlife.jpg);
+}
+#tirupati{
+    background-image: url(../BLOG/Images/Tirupati\ temple.jpg);
+}
+#TravelInfoCont{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(116, 210, 241);
+    margin-left: 500px;
+    position: relative;
+    top: 150px;
+    border-radius: 6px;
+}
+#contactus{
+    position: relative;
+    left: 145px;
+    top: 70px;
+    font-size: 40px;
+}
+.Details{
+    position: relative;
+    top: 90px;
+    left: 90px;
+    width: 320px;
+    height: 25px;
+    border-style: none;
+    outline-style: none;
+    font-size: 17px;
+    border-radius: 5px;
+}
+#Descript{
+    height: 120px;
+    
+}
+#Button{
+    width: 95px;
+    height: 35px;
+    margin-left: 100px;
+    border-radius: 0px;
+    background-color: transparent;
+    border: solid 2px white;
+    color: rgb(52, 52, 168);
+}
+#Button:hover{
+    background-color: white;
+}
+.DetailSection{
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    position: relative;
+    left: 100px;
+    bottom: 300px;
+    float: left;
+    transition: transform 0.5s;
+}
+.DetailSection:hover{
+    transform: scale(1.2);
+}
+
+#DivCont{
+    position: relative;
+    left: 150px;
+}
+#DivCont1{
+    position: relative;
+    top: -20px;
+    left: -300px;
+    
+}
+#DivCont2{
+    position: relative;
+    top: -20px;
+    left: -250px;
+}
+.locationLogo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 40px;
+    top: 2px;
+}
+.OfficeAdd{
+    font-size: 18px;
+    text-align: center;
+}
+.officeAdd1{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+#fax{
+    font-size: 30px;
+    padding-right: 30px;
+}
+#email{
+    font-size: 20px;
+    padding-right: 20px;
+}
+#emailId{
+    font-size: 18px;
+}
+#emailadress{
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
