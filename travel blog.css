@@ -9,8 +9,8 @@ html{
     width: 100%;
     height: 100vh;
     background-color: teal;
-    background-image: url(../BLOG/Images/mountain\ left.com.png),url(../BLOG/Images/mountain\ right.com.png),
-    url(../BLOG/Images/photo-1454942901704-3c44c11b2ad1.avif);
+    background-image: url(./mountain\ left.com.png),url(./mountain\ right.com.png),
+    url(./photo-1454942901704-3c44c11b2ad1.avif);
     background-repeat: no-repeat;
     background-size: 80%,60%,100% 400vh;
     background-position: left,right,0% 0%;
@@ -247,28 +247,28 @@ html{
     transform: scale(1.2);
 }
 #tajmahel{
-    background-image: url(../BLOG/Images/tajmahel.avif);
+    background-image: url(./tajmahel.avif);
 }
 #hampi{
-    background-image: url(../BLOG/Images/Hampi-696x399.jpg);
+    background-image: url(./Hampi-696x399.jpg);
 }
 #goldentemple{
-    background-image: url(../BLOG/Images/golden\ temple.jpg);
+    background-image: url(./golden\ temple.jpg);
 }
 #charminar{
-    background-image: url(../BLOG/Images/charminar-hyderabad-featured-image\ \(1\).jpg);
+    background-image: url(./charminar-hyderabad-featured-image\ \(1\).jpg);
 }
 #golgumbaj{
-    background-image: url(../BLOG/Images/golgumbaz.jpg);
+    background-image: url(./golgumbaz.jpg);
 }
 #mumbai{
-    background-image: url(../BLOG/Images/Gateway-of-India-Mumai-monument-2012.webp);
+    background-image: url(./Gateway-of-India-Mumai-monument-2012.webp);
 }
 #kerala{
-    background-image: url(../BLOG/Images/Historical-Temples-in-Kerala-@stylesatlife.jpg);
+    background-image: url(./Historical-Temples-in-Kerala-@stylesatlife.jpg);
 }
 #tirupati{
-    background-image: url(../BLOG/Images/Tirupati\ temple.jpg);
+    background-image: url(./Tirupati\ temple.jpg);
 }
 #TravelInfoCont{
     width: 500px;
