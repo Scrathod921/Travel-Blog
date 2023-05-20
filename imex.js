@@ -39,14 +39,14 @@ function loginFun()
 function visiblePassword()
 {
     inputTags[1].type="text"
-    document.getElementById("visibleLogo").src="../BLOG/LOGO/open eye monkey.png"
+    document.getElementById("visibleLogo").src="./open eye monkey.png"
     document.getElementById("visibleLogo").style.transform="rotateY(180deg)"
     document.getElementById("visibleLogo").style.transition="transform 0.2s"
 }
 function invisiblePassword()
 {
     inputTags[1].type="password"
-    document.getElementById("visibleLogo").src="../BLOG/LOGO/colsed eye monkey.png"
+    document.getElementById("visibleLogo").src="./colsed eye monkey.png"
     document.getElementById("visibleLogo").style.transform="rotateY(0deg)"
     document.getElementById("visibleLogo").style.transition="transform 0.2s"
 }
