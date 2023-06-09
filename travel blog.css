@@ -23,8 +23,8 @@ html{
 }
 #text{
     position: relative;
-    left: 350px;
-    top: 60px;
+    left: 30%;
+    top: 10%;
     font-size: 5vw;
     letter-spacing: 1vw;
     text-transform: capitalize;
@@ -40,7 +40,7 @@ html{
 }
 #navbar{
     width: 100%;
-    height:75px;
+    height:12vh;
     background-color: #ffb703;
     position: sticky;
     top: 0px;
@@ -49,7 +49,7 @@ html{
     
 }
 #logo{
-    width: 150px;
+    width: 12%;
     filter: drop-shadow(2px 2px 2px black);
 }
 #mainlist{
@@ -57,13 +57,13 @@ html{
     list-style: none;
     justify-content: space-evenly;
     position: relative;
-    bottom: 70px;
+    bottom: 80%;
 }
 .list{
-    font-size: 40px;
+    font-size: 3vw;
     text-transform: capitalize;
     position:relative;
-    top: 10px;
+    
     color: #023047;
 }
 .list:hover{
@@ -98,17 +98,17 @@ html{
 }
 #imagecont{
     width: 100%;
-    height: 400px;
+    height: 60vh;
     position: relative;
-    top: 60px;
+    top: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
 }
 .imagesinhome{
-    width: 200px;
-    height: 200px;
+    width: 17vw;
+    height: 36vh;
     transform: rotateY(25deg) skewY(-20deg);
     margin-left: -90px;
     position: relative;
@@ -122,72 +122,72 @@ html{
     transform: rotateY(0deg) skewY(0deg) translateY(-200px);
 }
 #guide{
-    width: 350px;
-    height: 350px;
+    width: 29vw;
+    height: 29vh;
     position: relative;
-    right: 220px;
+    right: 100px;
     top: 80px;
 }
 #guideheading{
     text-align: center;
-    font-size: 35px;
+    font-size: 3vw;
     color: green;
     text-shadow: 3px 3px 4px black;
-    letter-spacing: 8px;
+    letter-spacing: 0.6vw;
 }
 #guidepara{
-    font-size: 25px;
+    font-size: 2vw;
     /* letter-spacing: 5px; */
     /* word-spacing: 10px; */
     text-align: justify;
-    letter-spacing: 5px;
-    width: 300px;
-    text-indent: 78px;
-    margin-top: 30px;
+    letter-spacing: 0.4vw;
+    width: 25vw;
+    text-indent: 6.5vw;
+    margin-top: 2.5vw;
     color: white;
 }
 #homepageinfo{
     width: 100%;
     height: 100vh;
     position: relative;
-    top: 200px;
-    border-top: 4px solid rgb(204, 194, 194);
+    top: 16.5vw;
+    border-top: 0.3vw solid rgb(204, 194, 194);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 #travelheading{
     width: 100%;
-    height: 80px;
-    margin-top: 15px;
+    height: 11vh;
+    margin-top: 1.25vw;
     background-color: beige;
 }
 #travelways{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0.83vw;
 }
 .travelcontainer{
-    width: 200px;
-    height: 200px;
+    width: 16.6vw;
+    height: 27vh;
     
    
 }
 .containerImage{
-    width: 200px;
-    height: 200px;
+    width: 16vw;
+    height: 33vh;
     position: relative;
-    top: 10px;
-    left: 15px;
-    border-radius: 10px;
+    top: 0.83vw;
+    left: 2.25vw;
+    border-radius: 4%;
     box-shadow: 3px 3px 5px black;
     border: 2px groove rgb(193, 68, 68);    
 }
 #containerImage2{
     width: 200px;
     height: 200px;
-    margin-left: 100px;
-    margin-top: 10px;
-    border-radius: 10px;
+    margin-left: 8vw;
+    margin-top:1vw ;
+    border-radius: 4%;
     box-shadow: 3px 3px 5px black;
     border: 2px groove rgb(193, 68, 68);   
 }
@@ -196,10 +196,10 @@ html{
 }
 #travelText1{
     position: absolute;
-    top: 200px;
-    left: 40px;
+    top: 16vw;
+    left: 3vw;
     color: white;
-    font-size: 40px;
+    font-size: 3vw;
 }
 .containerImage:hover{
     filter: blur(3px);
@@ -207,20 +207,20 @@ html{
 #travelText2{
     color: white;
     position: relative;
-    top: 80px;
-    right: 140px;
-    font-size: 40px;
+    top: 6vw;
+    right: 11vw;
+    font-size: 3vw;
 }
 .anchortravelText{
     text-decoration: none;
     color: white;
 }
 .placeCont{
-    width: 300px;
-    height: 300px;   
-    background-size: 100% 300px;
-    margin-bottom: 100px;
-    border-radius: 20px;
+    width: 23vw;
+    height: 48vh;   
+    background-size: 100% 48vh;
+    margin-bottom: 8vw;
+    border-radius: 10%;
     box-shadow: 4px 4px 5px black;
     display: flex;
     align-items: center;
@@ -239,7 +239,7 @@ html{
 }
 
 .placeName{
-    font-size: 40px;
+    font-size: 3vw;
     filter: brightness(100%);
     transition: transform 0.5s;
 }
@@ -271,39 +271,39 @@ html{
     background-image: url(./Tirupati\ temple.jpg);
 }
 #TravelInfoCont{
-    width: 500px;
-    height: 500px;
+    width: 41vw;
+    height: 75vh;
     background-color: rgb(116, 210, 241);
-    margin-left: 500px;
+    margin-left: 41vw;
     position: relative;
-    top: 150px;
-    border-radius: 6px;
+    top: 13vw;
+    border-radius: 2%;
 }
 #contactus{
     position: relative;
-    left: 145px;
-    top: 70px;
-    font-size: 40px;
+    left: 12vw;
+    top: 6vw;
+    font-size: 3vw;
 }
 .Details{
     position: relative;
-    top: 90px;
-    left: 90px;
-    width: 320px;
-    height: 25px;
+    top: 8vw;
+    left: 8vw;
+    width: 27vw;
+    height: 5vh;
     border-style: none;
     outline-style: none;
-    font-size: 17px;
-    border-radius: 5px;
+    font-size: 2vw;
+    border-radius: 2%;
 }
 #Descript{
-    height: 120px;
+    height: 17vh;
     
 }
 #Button{
-    width: 95px;
-    height: 35px;
-    margin-left: 100px;
+    width: 8vw;
+    height: 5vh;
+    margin-left: 8vw;
     border-radius: 0px;
     background-color: transparent;
     border: solid 2px white;
@@ -313,12 +313,12 @@ html{
     background-color: white;
 }
 .DetailSection{
-    width: 200px;
-    height: 250px;
+    width: 17vw;
+    height: 40vh;
     background-color: white;
     position: relative;
-    left: 100px;
-    bottom: 300px;
+    left: 8vw;
+    bottom: 25vw;
     float: left;
     transition: transform 0.5s;
 }
@@ -328,18 +328,18 @@ html{
 
 #DivCont{
     position: relative;
-    left: 150px;
+    left: 13vw;
 }
 #DivCont1{
     position: relative;
     top: -20px;
-    left: -300px;
+    left: -26vw;
     
 }
 #DivCont2{
     position: relative;
     top: -20px;
-    left: -250px;
+    left: -20vw;
 }
 .locationLogo{
     width: 100px;
